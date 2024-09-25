@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import styles from './productcard.css'; // Import your CSS module
 
 export default function ProductCard(props: any) {
   const router = useRouter();
